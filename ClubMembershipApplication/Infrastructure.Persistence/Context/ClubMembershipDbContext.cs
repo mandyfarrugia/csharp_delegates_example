@@ -6,7 +6,7 @@ namespace Infrastructure.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite($"{AppDomain.CurrentDomain.BaseDirectory}ClubMembershipDb.db");
+            optionsBuilder.UseSqlite($"Data Source={AppDomain.CurrentDomain.BaseDirectory}ClubMembershipDb.db");
             base.OnConfiguring(optionsBuilder);
         }
     }
