@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Formatters\" />
+    <Folder Include="Views\" />
+  </ItemGroup>
+
 </Project>
