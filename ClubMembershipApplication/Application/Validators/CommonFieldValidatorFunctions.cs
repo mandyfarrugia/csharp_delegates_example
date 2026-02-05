@@ -49,7 +49,7 @@ namespace Application.Validators
             }
         }
 
-        public PatternMatchValidatorDelegate PatternMatchValidatorDelegate
+        public static PatternMatchValidatorDelegate PatternMatchValidatorDelegate
         {
             get
             {
@@ -60,7 +60,7 @@ namespace Application.Validators
             }
         }
 
-        public CompareFieldsValidatorDelegate CompareFieldsValidatorDelegate
+        public static CompareFieldsValidatorDelegate CompareFieldsValidatorDelegate
         {
             get
             {
